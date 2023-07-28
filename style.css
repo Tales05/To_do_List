@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background-color: #005D99;
+}
+
+div.TodoList {
+    margin: auto;
+    margin-top: 4rem;
+    position: relative;
+    background-color: white;
+    width: 380px;
+    min-height: 600px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+h1 {
+    font-size: 3rem;
+    padding: 10px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+div.colors {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+}
+
+div.seagreen {
+    width: 35px;
+    height: 35px;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+div.slateblue {
+    width: 35px;
+    height: 35px;
+    background-color: slateblue;
+    cursor: pointer;
+
+}
+
+div.tomato {
+    width: 35px;
+    height: 35px;
+    background-color: tomato;
+    cursor: pointer;
+
+}
+
+
+div.escrevaList {
+    padding: .5rem;
+    display: flex;
+
+}
+
+div.escrevaList input {
+    width: 290px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #D8D7D8;
+    margin-right: .5rem;
+
+}
+
+div.escrevaList button {
+    height: 45px;
+    width: 40px;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #D8D7D8;
+    cursor: pointer;
+}
+
+div.listEscrita {
+    background-color: #1D75A4;
+    border-radius: 15px;
+    min-height: 15px;
+    width: 87%;
+    padding: 10px;
+    margin-bottom: .5rem;
+}
+
+div.listaEstilizada {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D8D7D8;
+    padding: 10px;
+    border-radius: 15px;
+    height: 20px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+button.bontaoExcluir {
+    background-color: #122840;
+    color: #D8D7D8;
+    padding: 3px;
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button#botaoLimpar {
+    height: 45px;
+    width: 91%;
+    cursor: pointer;
+    background-color: #122840;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
